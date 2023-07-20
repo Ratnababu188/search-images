@@ -1,0 +1,163 @@
+.navbar{
+    background-color: black !important;
+    position: fixed !important;
+    z-index: 1000; 
+    width: 100%; 
+}
+ .navabr-brand,a{
+    color: white !important;
+    font-weight: bolder !important;
+    padding: 5px 20px !important;
+
+ }
+ nav{
+    padding: 10px 30px !important;
+ }
+ .navbar-nav a:hover{
+  
+    background-color: #239B56!important;
+    border-radius: 5px;
+ }
+ .submenu a{
+    text-decoration: none !important;
+    color: black !important;
+
+ }
+ .submenu li{
+    list-style: none !important;
+ }
+ .submenu{
+    position: absolute;
+     left: 57rem;
+   background-color: rgb(253, 248, 248);
+     top: 3.7rem;
+     display: none;
+     transition: 2s !important;
+     border-radius: 5px;
+ }
+ 
+.navbar-nav li:hover .submenu{
+   display:  block;
+
+} 
+ 
+
+ .submenu1{
+   position: absolute;
+    left: 62rem;
+  background-color: rgb(253, 248, 248);
+    top: 3.7rem;
+    display: none;
+    transition: 2s !important;
+    border-radius: 5px;
+}
+
+ 
+
+.navbar-nav li:hover .submenu1{
+   display:  block;
+
+} 
+.submenu1 a{
+   text-decoration: none !important;
+   color: black !important;
+}
+.submenu1 li{
+   list-style: none;
+}
+.submenu2{
+   position: absolute;
+   display: none;
+   left: 68rem;
+   top: 3.7rem;
+   background-color: white;
+   transition: 2s !important;
+   border-radius: 5px;
+}
+.submenu2 a{
+   text-decoration: none !important;
+   color: black !important;
+}
+.submenu2 li{
+   list-style: none !important;
+}
+.navbar-nav li:hover .submenu2{
+   display: block;
+}
+.submenu3{
+   position: absolute;
+   display: none;
+   left: 75rem;
+   top: 3.7rem;
+   background-color: white;
+   transition: 2s !important;
+   border-radius: 5px;
+}
+.submenu3 a{
+   text-decoration: none !important;
+   color: black !important;
+}
+.submenu3 li{
+   list-style: none;
+
+}
+.navbar-nav li:hover .submenu3{
+   display: block;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.heading{
+    text-align: center !important;
+    background-color:#424949;
+    color:white;
+    padding-top: 20px;
+
+}
+ .heading h1{
+     margin-bottom: -10px;
+ }
+ .row img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+ }
+ .footer{
+   display: flex;
+   flex-wrap: wrap;
+    background-color: #424949;
+    color: white;
+    padding-left: 10rem;
+    padding: 30px 60px;
+    
+    
+ }
+ .footer a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100 !important;
+
+
+ }
+ .footer li{
+    list-style: none;
+ }
+ .footer h4{
+    text-align: center;
+    padding-right: 40pxpx;
+    font-weight: 400;
+ }
+ .footer h4:hover{
+   color: #239B56;
+   border-radius: 5px;
+ }
+ .footer a:hover{
+   color: #239B56 !important;
+ }
+ .row primary{
+   display: flex;
+   justify-content: center;
+ }
